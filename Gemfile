@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'pycall', '>= 1.0.1'
+gem 'pycall', '>= 1.0.2'
 gem 'numpy'
 gem 'matplotlib'
-gem 'pandas'
+gem 'pandas', '>= 0.2.0'
 gem 'iruby'
 gem 'cztop'
 gem 'pry'
+gem 'numo-narray'
+gem 'numo-linalg'
