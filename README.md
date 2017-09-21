@@ -20,7 +20,13 @@ $ docker run -p 8888:8888 rubydata/rubykaigi2017
 ## Related Links
 
 ### SciRuby
-- [Gitter](https://gitter.im/SciRuby/home)
+
+At first, you should register yourself if you've never joined to SciRuby slack.
+To do that, you first need to get invitation email from [https://sciruby-slack.herokuapp.com/](https://sciruby-slack.herokuapp.com/).
+Then you get the invitation email, you need to click the confirmation URL in the email.
+Finally, you've accepted to join in the slack team:
+
+- [SciRuby Slack team](https://sciruby.slack.com/)
 
 ### Red Data Tools
 - [Offical Page (English)](https://red-data-tools.github.io/)
