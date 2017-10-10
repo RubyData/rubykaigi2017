@@ -1,7 +1,7 @@
 namespace :docker do
   desc 'Build docker image'
   task :build do
-    sh 'docker', 'build', '-t',  'rubydata/rubykaigi2017', File.expand_path('..', __FILE__)
+    sh 'docker', 'build', '--no-cache', '-t', 'rubydata/rubykaigi2017', File.expand_path('..', __FILE__)
   end
 
   desc 'Pull docker image'
