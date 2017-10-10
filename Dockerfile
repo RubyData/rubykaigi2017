@@ -1,4 +1,4 @@
-FROM rubydata/pycall-notebooks
+FROM rubydata/notebooks
 
 USER root
 
