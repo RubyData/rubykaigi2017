@@ -9,4 +9,6 @@ gem 'cztop'
 gem 'pry'
 gem 'numo-narray'
 gem 'numo-linalg'
+gem 'rake'
 gem 'red-arrow' if RUBY_PLATFORM =~ /linux/
+gem 'red-parquet' if RUBY_PLATFORM =~ /linux/

@@ -9,6 +9,11 @@ GEM
       czmq-ffi-gen (~> 0.13.0)
     data_uri (0.1.0)
     ffi (1.9.18)
+    glib2 (3.1.9)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+    gobject-introspection (3.1.9)
+      glib2 (= 3.1.9)
     iruby (0.3)
       bond (~> 0.5)
       data_uri (~> 0.1)
@@ -19,17 +24,26 @@ GEM
     method_source (0.9.0)
     mimemagic (0.3.2)
     multi_json (1.12.2)
+    native-package-installer (1.0.4)
     numo-linalg (0.0.1)
       numo-narray (~> 0.9.0.7)
     numo-narray (0.9.0.8)
     numpy (0.1.0)
       pycall (>= 1.0.1)
-    pandas (0.2.0)
+    pandas (0.3.0)
       pycall (>= 1.0.0)
-    pry (0.11.1)
+    pkg-config (1.2.8)
+    pry (0.11.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     pycall (1.0.3)
+    rake (12.1.0)
+    red-arrow (0.4.1)
+      gobject-introspection (>= 3.1.1)
+      native-package-installer
+      pkg-config
+    red-parquet (0.0.1)
+      red-arrow
 
 PLATFORMS
   ruby
@@ -44,6 +58,9 @@ DEPENDENCIES
   pandas (>= 0.2.0)
   pry
   pycall (>= 1.0.2)
+  rake
+  red-arrow
+  red-parquet
 
 BUNDLED WITH
-   1.15.4
+   1.14.5
